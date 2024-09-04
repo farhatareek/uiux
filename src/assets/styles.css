@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '/node_modules/flowbite-vue/dist/index.css';
+body {
+    background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/e122b98864ba52164a39350d25119e89e1dc1a48f30ebede8711dbd1874bac04?placeholderIfAbsent=true&apiKey=d64a437ab8f64a9ca8fc16914b2d583b');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+/* Make sure the body takes the full viewport height */
+  }
+  .fancy{
+    @apply cursor-fancy;
+  }
+  
